@@ -1,0 +1,30 @@
+{
+  "name": "ai-stock-predictor",
+  "version": "1.0.0",
+  "description": "AI-powered stock market prediction tool with multiple ML models",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 3000",
+    "build": "echo 'Static site - no build required'",
+    "dev": "python3 -m http.server 3000"
+  },
+  "keywords": [
+    "ai",
+    "stock-prediction",
+    "machine-learning",
+    "finance",
+    "trading",
+    "lstm",
+    "arima",
+    "ensemble"
+  ],
+  "author": "Prashant",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/ai-stock-predictor"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
